@@ -35,5 +35,8 @@ opkg install kmod-nft-nat
 opkg install kmod-nft-offload
 opkg install kmod-nft-tproxy
 
-chmod +x /root/configure_xray_startup.sh
+chmod +x /etc/xray/fwd_functions.sh
+chmod +x /etc/xray/startup.sh
 chmod +x /etc/init.d/xray
+chmod +x /root/restart_xray.sh
+chmod +x /root/fwd_manual.sh

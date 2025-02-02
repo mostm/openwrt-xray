@@ -1,0 +1,13 @@
+{
+    "policy":
+    {
+        "levels":
+        {
+            "0":
+            {
+				// If you have issues with SSH connections, it's recommended to increase this value. See the docs
+                "connIdle": 30
+            }
+        }
+    }
+}

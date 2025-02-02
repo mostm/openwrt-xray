@@ -1,0 +1,33 @@
+{
+    "inbounds":
+    [
+        {
+            "port": 61219,
+            "protocol": "dokodemo-door",
+            "settings":
+            {
+                "followRedirect": true,
+                "network": "tcp,udp"
+            },
+            "sniffing":
+            {
+                "destOverride":
+                [
+                    "http",
+                    "tls",
+                    "quic"
+                ],
+                "enabled": true,
+                "routeOnly": true
+            },
+            "streamSettings":
+            {
+                "sockopt":
+                {
+                    "tproxy": "tproxy"
+                }
+            },
+            "tag": "tproxy"
+        }
+    ]
+}

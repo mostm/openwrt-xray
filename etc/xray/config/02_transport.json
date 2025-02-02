@@ -1,0 +1,24 @@
+{
+    "transport":
+    {
+        "domainStrategy": "IPIfNonMatch",
+        "grpcSettings":
+        {
+            "health_check_timeout": 20,
+            "idle_timeout": 60,
+            "initial_windows_size": 35536,
+            "permit_without_stream": true
+        },
+        "httpSettings":
+        {
+            "health_check_timeout": 15,
+            "read_idle_timeout": 10
+        },
+        "sockopt":
+        {
+            "tcpFastOpen": true,
+            "tcpMptcp": true,
+            "tcpNoDelay": true
+        }
+    }
+}

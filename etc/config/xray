@@ -3,7 +3,7 @@ config xray 'enabled'
 	option enabled '1'
 
 config xray 'config'
-	option confdir '/root/xray_config'
+	option confdir '/etc/xray/config'
 	option datadir '/usr/share/xray'
 	option dialer ''
 	option format 'json'

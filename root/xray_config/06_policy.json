@@ -1,9 +1,0 @@
-{
-  "policy": {
-    "levels": {
-      "0": {
-        "connIdle": 30
-      }
-    }
-  }
-}
