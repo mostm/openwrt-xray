@@ -1,0 +1,10 @@
+/etc/xray/log/*.log {
+    hourly
+    rotate 24
+    missingok
+    notifempty
+    compress
+    delaycompress
+    copytruncate
+    dateext
+}
